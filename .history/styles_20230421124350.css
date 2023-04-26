@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* img{
+  width: 100%;
+  height: 100%;
+} */
+
+body{
+  max-width: 1200px;
+  margin: auto;
+  padding: 3rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+/* NAVBAR STYLES */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu{
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-menu{
+  color: hsl(236, 13%, 42%);
+}
+
+.mobile-icons{
+  display: none;
+}
+
+/* HERO STYLES */
+
+.hero{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  max-height: 500px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+}
+
+.left img{
+  max-width: 100%;
+  height: 100%;
+}
+
+.hero-article{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.hero-article h1{
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 56px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.right{
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 350px;
+}
+
+.right h1{
+  font-size: 40px;
+  color: hsl(35, 77%, 62%);
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.right h3 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: hsl(36, 100%, 99%);
+}
+
+.right p{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: hsl(233, 8%, 79%);
+}
+
+.right div{
+  margin: auto;
+  border-bottom: solid 1px grey;
+  padding-bottom: 25px;
+}
+
+.right div:nth-child(4){
+  border: none;
+  padding-bottom: 0;
+}
